@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(47, 89, 151);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container{
+    background-color: #fff;
+    width: 70%;
+    height: 90%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 30px;
+    margin: 13px;
+}
+
+.info{
+    width: 85%;
+    display: flex;
+    gap: 2%;
+}
+
+.info input{
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.info button{
+    width: 8%;
+    background-color: rgb(47, 89, 151);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.taskList{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 85%;
+}
+
+.task{
+    background-color: rgb(47, 89, 151);
+    display: flex;
+    width: 97%;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px;
+    padding: 0 10px;
+}
+
+.task input{
+    background-color: rgb(47, 89, 151);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.task button{
+    background-color: rgb(47, 89, 151);
+    border: none;
+    font-size: 18px;
+    margin-right: 10px;
+}
